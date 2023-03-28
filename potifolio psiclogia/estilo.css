@@ -1,0 +1,67 @@
+body{
+    height: 100%;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+     
+}
+.cabesalho{
+    background-color: white;
+    box-shadow: 0 0 50px 1px rgb(95, 95, 95) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+
+}
+.cabesalho2{
+    position: fixed;
+    width: 100%;  
+    top: 20px;
+    left: 60%;
+    right: 30%;     
+}
+.contatos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    border-radius: 35px;
+    height: 50px;
+    width: 140px;
+    border:1px solid black;
+    background: #ffffff;
+    box-shadow:  1px 3px 1px rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+}
+
+.contatos:hover,
+.contatos:focus-visible{
+    background: #ffffff;
+    border:2px solid black;
+    box-shadow: 0px 0px 0px,
+    0px 0px 0px;
+}
+.sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 35px;
+    height: 50px;
+    width: 140px;
+    border:1px solid black;
+    background: #ffffff;
+    box-shadow:  1px 3px 1px rgb(0, 0, 0);
+    transition: 0.2s ease-in; 
+}
+.sobre:hover,
+.sobre:focus-visible{
+    background: #ffffff;
+    border:2px solid black;
+    box-shadow: 0px 0px 0px,
+    0px 0px 0px;
+}
